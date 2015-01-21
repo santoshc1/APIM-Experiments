@@ -618,6 +618,7 @@ strong,
 /* INTRO */
 .intro-section {
 	margin-top: 75px;
+	text-align:left;
 }
 
 .intro-section p {
