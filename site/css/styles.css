@@ -269,7 +269,7 @@ strong,
 }
 
 .transparent-text {
-	color: rgba(255, 255, 255, 0.6);
+	color: rgba(255, 255, 255, 0.75);
 }
 
 .transparent-text-dark {
@@ -526,7 +526,7 @@ strong,
 	/* original padding-top: 84px */
 	padding-top: 64px;
 	/* original padding-bottom: 175px */
-	padding-bottom: 128px;
+	padding-bottom: 75px;
 	height: auto;
 }
 
@@ -617,7 +617,7 @@ strong,
 }
 /* INTRO */
 .intro-section {
-	margin-top: 100px;
+	margin-top: 75px;
 }
 
 .intro-section p {
@@ -633,7 +633,7 @@ strong,
 	font-size: 18px;
 	font-weight: 400;
 	margin-top: 30px;
-	margin-left: 20px;
+	margin-left: 0px; //20px
 	margin-bottom: 40px;
 }
 
@@ -1298,5 +1298,11 @@ strong,
 
 .social-icons li a:hover .transparent-text-dark {
 	color: #313131;
+}
+
+/* CUSTOM */
+
+.h-space {
+	height: 35px;
 }
 
