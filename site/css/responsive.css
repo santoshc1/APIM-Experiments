@@ -161,9 +161,9 @@
 		min-height: 70px;
 	}
 
-	.sticky-navigation .navbar-brand img {
+	/*.sticky-navigation .navbar-brand img {
 		max-width: 80px;
-	}
+	}*/
 
 	.sticky-navigation .main-navigation li a {
 		line-height: 34px;
@@ -234,6 +234,8 @@
 	.single-service {
 		margin: 54px 0 54px 0;
 	}
+
+.navbar-brand { margin: -6px;}
 
 	.brief {
 		padding-top: 65px;
@@ -354,6 +356,8 @@
 	.only-logo .navbar-header img {
 		max-width: 80px;
 	}
+
+	.navbar-brand { margin: -6px;}
 
 	.intro-section {
 	   margin-top: 30px;
