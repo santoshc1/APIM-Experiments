@@ -140,7 +140,8 @@
                                 
                                 <input type="phone" id="cf-phone" name="phone" class="form-control input-box" placeholder="Phone">
                                 
-                                <button class="btn btn-primary standard-button" type="button">Register</button>
+								<!-- type="button" -->
+                                <button class="btn btn-primary standard-button">Register</button>
 								
                             </form>
 							
@@ -149,12 +150,8 @@
 							</p>
                                 
                             <!-- FORM SUBMIT SUCCESS / ERROR MESSAGES -->
-                            <p class="email-success dark-text small-text"><span class="icon-check-alt2 colored-text"></span>Email sent seuccessfully</p>
-                            <p class="email-error dark-text small-text"><span class="icon-close-alt2"></span>Error! Please check all fields filled correctly</p>
-                            <!-- MAILCHIMP ALERTS 
-			        <p class="mailchimp-success dark-text"><span class="icon-check-alt2 colored-text"></span>We sent the confirmation to your email</p>
-			        <p class="mailchimp-error dark-text"><span class="icon-close-alt2"></span>Error! Please check all fields filled correctly</p>
-			        -->
+                            <p class="submit-success dark-text small-text"><span class="icon-check-alt2 colored-text"></span>Registration submitted successfully.</p>
+                            <p class="submit-error dark-text small-text"><span class="icon-close-alt2"></span>Error! Please check all fields filled correctly</p>
                         </div>
                 </div>
 
@@ -186,6 +183,9 @@
      SCRIPTS   
     ============================== -->
     <script src="/js/jquery.min.js"></script>
+    <script src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js'></script>
+    <script src='http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js'></script>
+	
     <script>
         /* PRE LOADER */
         jQuery(window).load(function () {
@@ -203,7 +203,9 @@
     <script src="/js/jquery.stellar.min.js"></script>
     <script src="/js/retina.min.js"></script>
     <script src="/js/jquery.ajaxchimp.min.js"></script>
-
+	
+	<!-- submit registration info to Zumo -->
+    <script src="/js/APIM/apim-contact.js"></script>
     <!-- GOGLE MAP -->
     <script src="https://maps.googleapis.com/maps/api/js"></script>
 

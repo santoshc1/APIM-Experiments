@@ -76,6 +76,7 @@ $(window).resize(function() {
     /*	CONTACT FORM
 	/*---------------------------------------*/
 
+	/*
     $("#contact-form").submit(function(e) {
         e.preventDefault();
         var name = $("#cf-name").val();
@@ -104,6 +105,7 @@ $(window).resize(function() {
         }
         return false;
     });
+	*/
 
 
     /*---------------------------------------*/

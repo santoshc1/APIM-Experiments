@@ -195,16 +195,16 @@ li {
 
 .mailchimp-success,
 .mailchimp-error,
-.email-success,
-.email-error {
+.submit-success,
+.submit-error {
 	display: none;
 	margin-top: 15px;
 }
 
 .mailchimp-success span,
 .mailchimp-error span,
-.email-success span,
-.email-error span {
+.submit-success span,
+.submit-error span {
 	margin-right: 10px;
 }
 
