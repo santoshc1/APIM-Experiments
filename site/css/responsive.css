@@ -167,11 +167,11 @@
 
 	.sticky-navigation .main-navigation li a {
 		line-height: 34px;
-		padding: 8px;
+		/* padding: 8px; */
 	}
 
 	.sticky-navigation .main-navigation {
-		margin-top: 13px;
+		/* margin-top: 13px; */
 	}
 
 	.sticky-navigation .login-register {

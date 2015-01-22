@@ -564,8 +564,8 @@ strong,
 }
 
 .sticky-navigation .navbar-brand img {
-    margin-top: 0;
-	max-width: 240px;
+    margin-top: -3px; /* 0 */
+	max-width: 50px; /* 240px with name in logo */
 	-webkit-backface-visibility: hidden;
 }
 
@@ -578,6 +578,7 @@ strong,
 	font-size: 18px;
 	line-height: 34px;
 	padding: 18px;
+	margin-left: -15px; /* 0 */
 }
 
 .sticky-navigation .main-navigation li a {
