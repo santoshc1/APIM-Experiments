@@ -1,5 +1,6 @@
 $(function() {
-    var client = new WindowsAzure.MobileServiceClient('https://apim-exp-contacts.azure-mobile.net/', 'VqzzvozhoqEsMAkHTqClETVRJVBlWF60'),
+	// [Santosh] Update with production zumo instance creds.
+    var client = new WindowsAzure.MobileServiceClient('https://apim-io-contacts.azure-mobile.net/', 'mpYjtLplRxMEIYSgYkWOmyuXorROqm92'),
         contactTable = client.getTable('contacts');
 
 	function handleSuccess() {
